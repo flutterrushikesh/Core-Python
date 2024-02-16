@@ -1,0 +1,4 @@
+def fun(x, y, z=20):
+    print(x, y,z)
+
+fun(10, 20, 30)
