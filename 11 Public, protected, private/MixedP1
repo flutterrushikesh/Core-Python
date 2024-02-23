@@ -1,0 +1,17 @@
+class demo:
+    z=30
+    def __init__(self):
+        self._x=10
+        self.__y=20
+
+obj1=demo()
+print(obj1.z)
+print(obj1._x)
+print(obj1.__y)
+
+
+#print(obj1._demo__y) # this line access the y variable
+#error: tactrece not found because Y is private
+#to access y by class referance
+#that is called nameChanging method
+
